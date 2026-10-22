@@ -1,0 +1,8 @@
+# Lista de servidores para bitforce-run.ps1 / bitforce-run.sh
+# Formato:  usuario@host[:puerto]   [llave_privada o -]   [alias]
+# El usuario necesita sudo sin contraseña para el modo desatendido
+# (si no, usa -Interactive en PowerShell o -i en bash).
+
+root@203.0.113.10                     -                          vps-bitforce
+deploy@tienda.cliente1.com:2222       C:\Users\carlos\.ssh\cliente1   cliente1-tienda
+ubuntu@198.51.100.25                  ~/.ssh/cliente2.pem        cliente2-web
